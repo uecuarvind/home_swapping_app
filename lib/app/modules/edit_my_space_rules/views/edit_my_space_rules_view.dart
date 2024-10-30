@@ -60,7 +60,6 @@ class EditMySpaceRulesView extends GetView<EditMySpaceRulesController> {
                             inactiveThumbColor:Colors.grey.withOpacity(0.6) ,
                             activeThumbImage: const AssetImage(IconConstants.icToggleCheck),
                             inactiveThumbImage : const AssetImage(IconConstants.icUnCheck),
-
                             onChanged: (value){
                               controller.changeValue(0,value);
                             }
