@@ -53,8 +53,6 @@ class EditMySpaceRulesView extends GetView<EditMySpaceRulesController> {
                         child: Switch(
                             value: controller.rulesList[0]['status'],
                             activeColor: primary3Color,
-
-
                             inactiveTrackColor:Colors.grey.withOpacity(0.6) ,
                             activeTrackColor:const Color(0xFFDCD3C7) ,
                             inactiveThumbColor:Colors.grey.withOpacity(0.6) ,
