@@ -30,6 +30,7 @@ class MySpaceView extends GetView<MySpaceController> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(height: 10.px,),
+                  ///nice
 
                   Container(
                     height: 50.px,
